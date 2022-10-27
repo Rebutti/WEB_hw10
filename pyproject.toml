@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "applied-example"
+version = "0.1.0"
+description = ""
+authors = ["Rebutti <misha.ovsov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "applied_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.3.2"
+mongoengine = "^0.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
